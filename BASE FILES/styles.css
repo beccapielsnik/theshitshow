@@ -1,0 +1,16 @@
+*{
+  margin: 0 auto;
+
+}
+
+body{
+  background: url("../IMAGES/Middle-finger-jack-in-the-box.gif");
+  width: 100%;
+  font-family: helvetica;
+  font-size: 2em;
+	color: #ffffff;
+}
+
+p{
+  padding-top: 10px;
+}

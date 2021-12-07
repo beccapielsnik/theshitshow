@@ -1,0 +1,31 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script>
+		function PlaySound(soundobj) {
+			var thissound=document.getElementById(soundobj);
+			thissound.play();
+		}
+		function StopSound(soundobj) {
+			var thissound=document.getElementById(soundobj);
+			thissound.pause();
+			thissound.currentTime = 0;
+		}
+	</script>
+	<title>WELCOME TO THE SHIT SHOW </title>
+</head>
+
+<body>
+<div class="wrapper">
+<h1>WELCOME TO THE SHIT SHOW</h1>
+
+<p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">THAT IS CALLED MY LIFE :P <3</p>
+  <audio id="mySound" src="mylife.m4a"/>
+
+
+  </div>
+
+
+  </body>
+  </html>
